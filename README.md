@@ -2,8 +2,8 @@
 
 ## 개인 게임 캐릭터 그리기 (kirby)
 
-![kirby](https://github.com/yeonpm/coa/images/kirby-output.png)
+<img src="./images/kirby-output.png" alt="kirby" width="300" />
 
 ## 조원들 캐릭터 병합 및 움직임 구현
 
-![조원들 캐릭터 병합 및 움직임 구현](https://github.com/yeonpm/coa/images/merged-characters.gif)
+<img src="./images/merged-characters.gif" alt="조원들 캐릭터 병합 및 움직임 구현" width="500" />
