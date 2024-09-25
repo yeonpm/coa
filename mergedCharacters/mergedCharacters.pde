@@ -15,8 +15,8 @@ void draw(){
     background(#D8D8D8);
 
     x1 += vx1; y1 +=vy1; x2 += vx2; y2 +=vy2; x3 += vx3; y3 +=vy3; x4 += vx4; y4 +=vy4;
-    if(x1<0 || x1>width) vx1 = -vx1;
-    if(y1<0 || y1>height) vy1 = -vy1;
+    if(x1 < 0 || x1 > width) vx1 = -vx1;
+    if(y1 < 0 || y1 > height) vy1 = -vy1;
     if(x2 < 0 || x2 > width) vx2 = -vx2;
     if(y2 < 0 || y2 > height) vy2 = -vy2;
     if(x3 < 0 || x3 > width) vx3 = -vx3;
