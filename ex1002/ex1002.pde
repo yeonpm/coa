@@ -23,5 +23,8 @@ void draw() {
   renderTime(width - 240, 50, 40);
   
   if (gameOver == false) updateVillainsPositions();
+  // if (gameOver == false) updatePlayerPositions(); 이 함수를 생성해서 플레이어의 움직임에 대한 로직을 구현하고,
+  // detectCollision(); 이 함수를 생성해서 충돌 시 gameOver = true;를 적용해주면 될 것 같습니다.
+  
 }
 
