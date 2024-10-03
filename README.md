@@ -24,8 +24,8 @@
     - 배경값 backgroundColor 설정하여 이후 변환
     - 캐릭터 화면 이탈 방지. handleWallCollision()
     - 화면 우측 상단에 초 단위 시간 표시. “score: “+ seconds + “sec”의 형태. renderHeader()
-    - 배경 색상 2초 단위 변화. renderHeader()
-    - text 색상(Avoid villains with W,A,S,D!) 2초 단위 변화. renderHeader()
+    - 배경 색상 1초 단위 변화. renderHeader()
+    - text 색상(Avoid villains with W,A,S,D!) 1초 단위 변화. renderHeader()
     - gameOver 상태 이전까지 Villains와 Player 캐릭터 이동 가능.
     - 기본조작 키보드(W, A, S, D) 사용하여 Player이 5단위 이동. keyPressed()
     - Player과 Villains이 충돌 시 gameOver 상태로 변화. detectCollision()
