@@ -9,7 +9,6 @@ int backgroundColor;
 boolean gameOver;
 int retryButtonX = 800 / 2 - 100, retryButtonY = 800 - 200;
 float ratioSize, ratioV; // 크기, 속도 일괄 변환 매개변수
-float transferVX, transferVY; // 충돌시 속도 전달을 위한 변수
 
 
 void setup() {

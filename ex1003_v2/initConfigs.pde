@@ -1,7 +1,8 @@
 void initConfigs() {
     println("start");
 
-    ratioSize = 0.7;
+    // ratioSize = 0.7;
+    ratioSize = 1;
     frames = 0;
     seconds = 0;
     backgroundColor = 200;

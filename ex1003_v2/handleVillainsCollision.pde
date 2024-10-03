@@ -2,8 +2,8 @@ void handleVillainsCollision() {
   // 캐릭터(장애물)간의 충돌
   if (sqrt((blueKirbyX - pinkyKirbyX) * (blueKirbyX - pinkyKirbyX)
       + (blueKirbyY - pinkyKirbyY) * (blueKirbyY - pinkyKirbyY)) <= 100 * ratioSize) {
-    transferVX = blueKirbyVX;
-    transferVY = blueKirbyVY;
+    float transferVX = blueKirbyVX;
+    float transferVY = blueKirbyVY;
     blueKirbyVX = pinkyKirbyVX;
     blueKirbyVY = pinkyKirbyVY;
     pinkyKirbyVX = transferVX; 
@@ -12,8 +12,8 @@ void handleVillainsCollision() {
 
   if (sqrt((blueKirbyX - gearX) * (blueKirbyX - gearX) + (blueKirbyY - gearY) * (blueKirbyY - gearY)) <= 110
       * ratioSize) {
-    transferVX = blueKirbyVX;
-    transferVY = blueKirbyVY;
+    float transferVX = blueKirbyVX;
+    float transferVY = blueKirbyVY;
     blueKirbyVX = gearVX;
     blueKirbyVY = gearVY;
     gearVX = transferVX;
@@ -22,8 +22,8 @@ void handleVillainsCollision() {
 
   if (sqrt((pinkyKirbyX - gearX) * (pinkyKirbyX - gearX) + (pinkyKirbyY - gearY) * (pinkyKirbyY - gearY)) <= 110
       * ratioSize) {
-    transferVX = pinkyKirbyVX;
-    transferVY = pinkyKirbyVY;
+    float transferVX = pinkyKirbyVX;
+    float transferVY = pinkyKirbyVY;
     pinkyKirbyVX = gearVX;
     pinkyKirbyVY = gearVY;
     gearVX = transferVX;
