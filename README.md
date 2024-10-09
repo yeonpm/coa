@@ -31,3 +31,7 @@
     - Player과 Villains이 충돌 시 gameOver 상태로 변화. detectCollision()
     - gameOver 상태는 다음과 같이 구상. 배경 색상 변화, “score: “+ seconds + “sec”형태의 점수 표시, 중앙에 “Congratulations!” text 표시. renderOutro()
     - 게임 retry를 위한 마우스 클릭 사용. mousePressed()
+
+## 아이템 먹기 게임
+
+<img src="./images/241010.gif" alt="item_game" width="300" />
