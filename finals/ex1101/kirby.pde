@@ -7,8 +7,8 @@ class Kirby {
     x = 150;
     y = 200;
     scale = 3;
-    speedX = 3;
-    speedY = 2;
+    speedX = 5;
+    speedY = 5;
     bodyColor = color(255, 182, 193);
     armColor = bodyColor;
   }
