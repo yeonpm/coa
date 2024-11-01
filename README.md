@@ -1,18 +1,20 @@
 # 경희대학교 강좌 - 코딩하는 아티스트 개인 소스 자료
 
-## 개인 게임 캐릭터 그리기 (kirby)
+## 중간고사 기간 과제
+
+### 개인 게임 캐릭터 그리기 (kirby)
 
 <img src="./images/kirby-output.png" alt="kirby" width="300" />
 
-## 조원들 캐릭터 병합 및 움직임 구현
+### 조원들 캐릭터 병합 및 움직임 구현
 
 <img src="./images/merged-characters.gif" alt="조원들 캐릭터 병합 및 움직임 구현" width="300" />
 
-## 장애물 피하기 게임 v1
+### 장애물 피하기 게임 v1
 
 <img src="./images/241003_v1.gif" alt="game_v1" width="300" />
 
-## 장애물 피하기 게임 v2 (villain끼리 충돌 활성화)
+### 장애물 피하기 게임 v2 (villain끼리 충돌 활성화)
 
 <img src="./images/241003_v2.gif" alt="game_v2" width="300" />
 
@@ -32,6 +34,12 @@
     - gameOver 상태는 다음과 같이 구상. 배경 색상 변화, “score: “+ seconds + “sec”형태의 점수 표시, 중앙에 “Congratulations!” text 표시. renderOutro()
     - 게임 retry를 위한 마우스 클릭 사용. mousePressed()
 
-## 아이템 먹기 게임
+### 아이템 먹기 게임
 
 <img src="./images/241010.gif" alt="item_game" width="300" />
+
+## 기말고사 기간 과제
+
+### class 문법 사용 과제
+
+<img src="./images/241101.gif" alt="241101" width="300" />
