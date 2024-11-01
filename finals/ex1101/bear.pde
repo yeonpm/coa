@@ -5,13 +5,13 @@ class Bear {
   color c;
   
   // 생성자: 초기 위치, 크기, 속도 설정
-  Bear(float x, float y, float d, float speedX, float speedY) {
-    this.x = x;
-    this.y = y;
-    this.d = d;
-    this.speedX = speedX;
-    this.speedY = speedY;
-    this.c = color(150, 75, 0);  // 초기 색상
+  Bear() {
+    x = 300;
+    y = 200;
+    d = 80;
+    speedX = -1;
+    speedY = 1;
+    c = color(150, 75, 0);  // 초기 색상
   }
   
   // 위치와 색상 업데이트

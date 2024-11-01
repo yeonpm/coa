@@ -3,29 +3,37 @@ class Kirby {
   float speedX, speedY;
   color bodyColor, armColor;
   
-  Kirby(float x, float y, float scale) {
-    this.x = x;
-    this.y = y;
-    this.scale = scale;
-    this.speedX = 3;
-    this.speedY = 2;
-    this.bodyColor = color(255, 182, 193);
-    this.armColor = bodyColor;
+  Kirby() {
+    x = 150;
+    y = 200;
+    scale = 3;
+    speedX = 3;
+    speedY = 2;
+    bodyColor = color(255, 182, 193);
+    armColor = bodyColor;
   }
   
   void update() {
-    x += speedX;
-    y += speedY;
-    
-    if (x - 10*scale < 0 || x + 10*scale > width) {
-      speedX *= -1;
-    }
-    if (y - 10*scale < 0 || y + 10*scale > height) {
-      speedY *= -1;
-    }
-    
     bodyColor = color(random(200, 255), random(150, 200), random(180, 220));
     armColor = bodyColor;
+  }
+
+  void move() {
+    // WASD 키 입력에 따른 이동
+    if (keyPressed) {
+      if (key == 'w' || key == 'W') {
+        y -= speedY;
+      }
+      if (key == 's' || key == 'S') {
+        y += speedY;
+      }
+      if (key == 'a' || key == 'A') {
+        x -= speedX;
+      }
+      if (key == 'd' || key == 'D') {
+        x += speedX;
+      }
+    }
   }
   
   void show() {

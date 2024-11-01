@@ -6,8 +6,8 @@ Crying song;
 void setup() {
   size(600, 400);
   
-  kirby = new Kirby(150, 200, 3);
-  bear = new Bear(300, 200, 80, -1, 1);
+  kirby = new Kirby();
+  bear = new Bear();
   song = new Crying();
 }
 
@@ -22,4 +22,8 @@ void draw() {
   
   song.show();
   song.update();
+}
+
+void keyPressed() {
+  kirby.move();
 }
